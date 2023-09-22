@@ -20,7 +20,12 @@ export default function Home() {
         <Layout className='pt-2'>
           <div className='flex items-center justify-between w-full'>
             <div className='w-1/3 '>
-              <Image src={profilePic} alt="coder" className='w-full h-auto'/>
+              <Image src={profilePic} alt="coder" className='w-full h-auto'
+              priority
+              sizes='(max-width:768px) 100vw,
+              (max-width:1200px) 50vw,
+              50vw'
+              />
             </div>
             <div className='w-1/2 flex flex-col items-center self-center'>
               <AnimatedText text="Bringing Concepts to Life with the power of Code and Design" className='!text-5xl !text-left'/>
@@ -28,7 +33,7 @@ export default function Home() {
                 As a web developer, I am dedicated to turn my imagination into execution with the solid foundation of coding. To explore more, you can go through my projects where I created some modern websites showcasing my expertise in React.js and web development.
               </p>
               <div className='flex items-center self-start mt-2'>
-                <Link href="/Riajul-Jannah-Resume.pdf" target={"_blank"}
+                <Link href="/Ria-resume.pdf" target={"_blank"}
                 className="bg-dark text-light p-2.5 px-6 
                 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark
                 border-2 border-solid border-transparent hover:border-dark"

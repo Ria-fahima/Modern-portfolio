@@ -31,32 +31,32 @@ const NavBar = () => {
             <CustomLink href="/projects" title="Projects" className='mx-4'/>
         </nav>
         <nav className='flex items-center justify-center flex-wrap'>
-            <motion.a href="https://twitter.com" target={"_blank"}
+            <motion.a href="https://twitter.com/RiajulJ40238" target={"_blank"}
             whileHover={{y:-2}}
             whileTap={{scale:0.9}}
             className="w-6 mr-3">
                 <TwitterIcon/>
             </motion.a>
-            <motion.a href="https://twitter.com" target={"_blank"}
+            <motion.a href="https://github.com/Ria-fahima" target={"_blank"}
             whileHover={{y:-2}}
             whileTap={{scale:0.9}}
             className="w-6 mx-3"
             >
                 <GithubIcon/>
             </motion.a>
-            <motion.a href="https://twitter.com" target={"_blank"}
+            <motion.a href="https://www.linkedin.com/in/riajul-jannah-469b31252/" target={"_blank"}
             whileHover={{y:-2}}
             whileTap={{scale:0.9}}
             className="w-6 mx-3">
                 <Linkedin/>
             </motion.a>
-            <motion.a href="https://twitter.com" target={"_blank"}
+            <motion.a href="https://www.pinterest.com.au/fjriajul/" target={"_blank"}
             whileHover={{y:-2}}
             whileTap={{scale:0.9}}
             className="w-6 mx-3">
                 <Pinterest/>
             </motion.a>
-            <motion.a href="https://twitter.com" target={"_blank"}
+            <motion.a href="https://dribbble.com/RiaFahima" target={"_blank"}
             whileHover={{y:-2}}
             whileTap={{scale:0.9}}
             className="w-6 ml-3">

@@ -3,8 +3,11 @@ import { motion } from 'framer-motion'
 
 const Skill = ({name,x, y}) => {
     return (
-        <motion.div className='flex items-center justify-center rounded-full font-medium bg-dark text-light 
-        py-3 px-5 shadow-dark cursor-pointer absolute'
+        <motion.div className='flex items-center justify-center rounded-full 
+        font-medium bg-dark text-light 
+        py-3 px-5 shadow-dark cursor-pointer absolute
+        lg:py-2 lg:px-4 md:text-sm md:py-1.5 md:px-3 xs:bg-transparent
+        xs:text-dark xs:font-bold '
         whileHover={{scale:1.05}}
         initial={{x:0,y:0}}
         whileInView={{x:x, y:y}}
@@ -18,9 +21,13 @@ const Skill = ({name,x, y}) => {
 const Skills = () => {
   return (
     <>
-    <h2 className='w-full text-center mt-64 text-8xl font-bold'>Skills</h2>
-    <div className='w-full h-screen flex items-center justify-center rounded-full bg-circleLighten relative'>
-        <motion.div className='flex items-center justify-center rounded-full font-medium bg-dark text-light p-8 shadow-dark cursor-pointer'
+    <h2 className='w-full text-center mt-64 text-8xl font-bold md:text-6xl md:mt-32 xl:mb-32'>Skills</h2>
+    <div className='w-full h-screen flex items-center justify-center rounded-full 
+    bg-circleLighten relative lg:h-[80vh] sm:h-[60vh] xs:h-[50vh]
+    lg:bg-circleLightenLg md:circleLightenMd sm:circleLightenSm'>
+        <motion.div className='flex items-center justify-center rounded-full
+         font-medium bg-dark text-light p-8 shadow-dark cursor-pointer
+         lg:p-6 md:p-4 xs:text-xs xs:p-2'
         whileHover={{scale:1.05}}>
             Web
         </motion.div>

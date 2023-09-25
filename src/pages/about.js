@@ -42,9 +42,9 @@ const about = () => {
     </Head>
     <main className='flex w-full flex-col items-center justify-center'>
       <Layout className='pt-16'>
-        <AnimatedText text="Resilience ignites achievement!" className='mb-16'/>
-        <div className='grid w-full grid-cols-8 gap-16'>
-          <div className='col-span-4 flex flex-col items-start justify-start'>
+        <AnimatedText text="Resilience ignites achievement!" className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl'/>
+        <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
+          <div className='col-span-4 flex flex-col items-start justify-start xl:col-span-8'>
             <h2 className='mb-4 text-lg font-bold uppercase text-dark/75'>About Me</h2>
             <p className='font-medium'>
               Ever since I dipped my toes into the waters of web development, nothing has made me happier than taking an idea in my head and bringing it to life through code! 
@@ -59,27 +59,36 @@ const about = () => {
           </div>
         
           {/* number of  projects, client satisfaction  */}
-          <div className='col-span-4 flex flex-col items-end justify-between'>
+          <div className='col-span-4 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center'>
 
-            <div className='flex flex-col items-end justify-center'>
-              <span className='inline-block text-6xl font-bold'>
+            <div className='flex flex-col items-end justify-center xl:items-center'>
+              <span className='inline-block text-6xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
                 <AnimatedNumber value={50}/>+
               </span>
-              <h2 className='text-xl font-medium capitalize text-dark/75'>satisfied clients</h2>
+              <h2 className='text-xl font-medium capitalize text-dark/75 
+              xl:text-center md:text-lg sm:text-base xs:text-sm'>
+                satisfied clients
+                </h2>
             </div>
 
-            <div className='flex flex-col items-end justify-center'>
-              <span className='inline-block text-6xl font-bold'>
+            <div className='flex flex-col items-end justify-center xl:items-center'>
+              <span className='inline-block text-6xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
               <AnimatedNumber value={20}/>+
               </span>
-              <h2 className='text-xl font-medium capitalize text-dark/75'>projects completed</h2>
+              <h2 className='text-xl font-medium capitalize text-dark/75
+              l:text-center md:text-lg sm:text-base xs:text-sm'>
+                projects completed
+              </h2>
             </div>
 
-            <div className='flex flex-col items-end justify-center'>
-              <span className='inline-block text-6xl font-bold'>
+            <div className='flex flex-col items-end justify-center xl:items-center'>
+              <span className='inline-block text-6xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
               <AnimatedNumber value={2}/>+
               </span>
-              <h2 className='text-xl font-medium capitalize text-dark/75'>years of experience</h2>
+              <h2 className='text-xl font-medium capitalize text-dark/75
+              l:text-center md:text-lg sm:text-base xs:text-sm'>
+                years of experience
+              </h2>
             </div>
 
           </div>

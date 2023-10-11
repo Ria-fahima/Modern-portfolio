@@ -36,7 +36,7 @@ export default function Home() {
                 As a web developer, I am dedicated to turn my imagination into execution with the solid foundation of coding. To explore more, you can go through my projects where I created some modern websites showcasing my expertise in React.js and web development.
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
-                <Link href="/Ria-resume.pdf" target={"_blank"}
+                <Link href="/Ria-fjriajul.pdf" target={"_blank"}
                 className="bg-dark text-light p-2.5 px-6 
                 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark
                 border-2 border-solid border-transparent hover:border-dark

@@ -5,12 +5,12 @@ import Layout from '@/components/Layout'
 import Image from 'next/image'
 import AnimatedText from '@/components/AnimatedText'
 import { GithubIcon } from '@/components/Icons'
-import project1 from "../../public/images/projects/sudoku.jpeg"
-import project2 from "../../public/images/projects/hangman.jpeg"
-import project3 from "../../public/images/projects/bm.jpeg"
-import project4 from "../../public/images/projects/binary.jpeg"
-import project5 from "../../public/images/projects/mental.jpeg"
-import project6 from "../../public/images/projects/fraud.jpeg"
+import project1 from "../../public/images/projects/code-editor.jpeg"
+import project6 from "../../public/images/projects/hangman.jpeg"
+import project4 from "../../public/images/projects/bm.jpeg"
+import project5 from "../../public/images/projects/binary.jpeg"
+import project3 from "../../public/images/projects/mental.jpeg"
+import project2 from "../../public/images/projects/fraud.jpeg"
 
 
 
@@ -63,51 +63,12 @@ const projects = () => {
             <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 
             md:gap-y-24 sm:gap-x-0'>
                 <div className='col-span-12'>
-                    <FeaturedProject title="Sudoku Board"
-                    summary="A project based on Python. It gives the opportunity to solve the SudoKu board by the user."
-                    gitlink="https://github.com/Ria-fahima/Sudoku-Board"
+                    <FeaturedProject title="Code Editor"
+                    summary="This project is built with React and inspired by CodePen. It empowers developers, designers and creators to 
+                    experiment and innovate seamlessly."
+                    gitlink="https://code-editor-rho-six.vercel.app/"
                     type="Project-01"
                     img = {project1}
-                    />
-                </div>
-
-                <div className='col-span-12'>
-                    <FeaturedProject title="Hangman"
-                    summary="It is a terminal based game(python is used) which has few lives to crack the word."
-                    gitlink="https://github.com/Ria-fahima/Hangman"
-                    type="Project-02"
-                    img = {project2}
-                    />
-                </div>
-
-                <div className='col-span-12'>
-                    <FeaturedProject title="BD Management"
-                    summary="PostgreSQL is used in this. maintain 
-                    facilities efficiently this app streamlines operations. "
-                    gitlink="https://github.com/Ria-fahima/Building_mngmt"
-                    type="Project-03"
-                    img = {project3}
-                    />
-                </div>
-
-                <div className='col-span-12'>
-                    <FeaturedProject title="Binary Search"
-                    summary="This app simplifies the process of finding 
-                    specific items in a large dataset, delivering results."
-                    gitlink="https://github.com/Ria-fahima/Binary-Search"
-                    type="Project-04"
-                    img = {project4}
-                    />
-                </div>
-
-                <div className='col-span-12'>
-                    <FeaturedProject title="Serene"
-                    summary="It is a journaling platform that 
-                    gives users to authorise the ability 
-                    to log and track changes in their emotional state."
-                    gitlink="https://github.com/seanlb02/MERN_client"
-                    type="Project-05"
-                    img = {project5}
                     />
                 </div>
 
@@ -116,6 +77,47 @@ const projects = () => {
                     summary="This app provides users with a reliable tool 
                     to safeguard against fraudulent schemes by verifying the links"
                     gitlink="https://github.com/Ria-fahima/ScamChecker"
+                    type="Project-02"
+                    img = {project2}
+                    />
+                </div>
+
+                <div className='col-span-12'>
+                    <FeaturedProject title="Serene"
+                    summary="It is a journaling platform that 
+                    gives users to authorise the ability 
+                    to log and track changes in their emotional state. "
+                    gitlink="https://github.com/seanlb02/MERN_client"
+                    type="Project-03"
+                    img = {project3}
+                    />
+                </div>
+
+                <div className='col-span-12'>
+                    <FeaturedProject title="BD Management"
+                    summary="PostgreSQL is used in this. maintain 
+                    facilities efficiently this app streamlines operations."
+                    gitlink="https://github.com/Ria-fahima/Building_mngmt"
+                    type="Project-04"
+                    img = {project4}
+                    />
+                </div>
+
+                <div className='col-span-12'>
+                    <FeaturedProject title="Binary search"
+                    summary="This app simplifies the process of finding 
+                    specific items in a large dataset, delivering results."
+                    gitlink="https://github.com/Ria-fahima/Binary-Search"
+                    type="Project-05"
+                    img = {project5}
+                    />
+                </div>
+
+                <div className='col-span-12'>
+                    <FeaturedProject title="Hangman"
+                    summary="It is a terminal based game(python is used) which has
+                     few lives to crack the word."
+                    gitlink="https://github.com/Ria-fahima/Hangman"
                     type="Project-06"
                     img = {project6}
                     />

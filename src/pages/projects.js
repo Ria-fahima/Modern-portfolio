@@ -5,12 +5,16 @@ import Layout from '@/components/Layout'
 import Image from 'next/image'
 import AnimatedText from '@/components/AnimatedText'
 import { GithubIcon } from '@/components/Icons'
-import project1 from "../../public/images/projects/code-editor.jpeg"
-import project6 from "../../public/images/projects/hangman.jpeg"
-import project4 from "../../public/images/projects/bm.jpeg"
-import project5 from "../../public/images/projects/binary.jpeg"
-import project3 from "../../public/images/projects/mental.jpeg"
-import project2 from "../../public/images/projects/fraud.jpeg"
+import project1 from "../../public/images/projects/real-estate.jpeg"
+import project2 from "../../public/images/projects/code-editor.jpeg"
+import project3 from "../../public/images/projects/fraud.jpeg"
+import project4 from "../../public/images/projects/mental.jpeg"
+import project5 from "../../public/images/projects/bm.jpeg"
+import project6 from "../../public/images/projects/binary.jpeg"
+import project7 from "../../public/images/projects/hangman.jpeg"
+
+
+
 
 
 
@@ -63,12 +67,21 @@ const projects = () => {
             <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 
             md:gap-y-24 sm:gap-x-0'>
                 <div className='col-span-12'>
+                    <FeaturedProject title="Real Estate"
+                    summary="This project is built with MERN Stack. It offers a rich tapestry of options, 
+                    providing a spectrum of choices to discover and select their next ideal destination."
+                    gitlink="https://real-estate-ltc8.onrender.com/"
+                    type="Project-01"
+                    img = {project1}
+                    />
+                </div>
+                <div className='col-span-12'>
                     <FeaturedProject title="Code Editor"
                     summary="This project is built with React and inspired by CodePen. It empowers developers, designers and creators to 
                     experiment and innovate seamlessly."
                     gitlink="https://code-editor-rho-six.vercel.app/"
-                    type="Project-01"
-                    img = {project1}
+                    type="Project-02"
+                    img = {project2}
                     />
                 </div>
 
@@ -77,8 +90,8 @@ const projects = () => {
                     summary="This app provides users with a reliable tool 
                     to safeguard against fraudulent schemes by verifying the links"
                     gitlink="https://github.com/Ria-fahima/ScamChecker"
-                    type="Project-02"
-                    img = {project2}
+                    type="Project-03"
+                    img = {project3}
                     />
                 </div>
 
@@ -88,8 +101,8 @@ const projects = () => {
                     gives users to authorise the ability 
                     to log and track changes in their emotional state. "
                     gitlink="https://github.com/seanlb02/MERN_client"
-                    type="Project-03"
-                    img = {project3}
+                    type="Project-04"
+                    img = {project4}
                     />
                 </div>
 
@@ -98,8 +111,8 @@ const projects = () => {
                     summary="PostgreSQL is used in this. maintain 
                     facilities efficiently this app streamlines operations."
                     gitlink="https://github.com/Ria-fahima/Building_mngmt"
-                    type="Project-04"
-                    img = {project4}
+                    type="Project-05"
+                    img = {project5}
                     />
                 </div>
 
@@ -108,8 +121,8 @@ const projects = () => {
                     summary="This app simplifies the process of finding 
                     specific items in a large dataset, delivering results."
                     gitlink="https://github.com/Ria-fahima/Binary-Search"
-                    type="Project-05"
-                    img = {project5}
+                    type="Project-06"
+                    img = {project6}
                     />
                 </div>
 
@@ -118,8 +131,8 @@ const projects = () => {
                     summary="It is a terminal based game(python is used) which has
                      few lives to crack the word."
                     gitlink="https://github.com/Ria-fahima/Hangman"
-                    type="Project-06"
-                    img = {project6}
+                    type="Project-07"
+                    img = {project7}
                     />
                 </div>
 
